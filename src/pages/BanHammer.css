@@ -1,0 +1,65 @@
+.ban-hammer h2 {
+  margin-top: 0;
+}
+
+.ban-user-form {
+  background-color: #ecf0f1;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.ban-user-form h3 {
+  margin-top: 0;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #bdc3c7;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #c0392b;
+}
+
+.banned-users-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.banned-users-list th,
+.banned-users-list td {
+  text-align: left;
+  padding: 0.75rem;
+  border-bottom: 1px solid #bdc3c7;
+}
+
+.banned-users-list th {
+  background-color: #34495e;
+  color: white;
+}
